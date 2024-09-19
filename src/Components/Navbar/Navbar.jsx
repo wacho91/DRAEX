@@ -1,4 +1,5 @@
 
+
 const NavLinks = [
     {
         id: 1,
@@ -25,7 +26,7 @@ const NavLinks = [
 const Navbar = () => {
   return (
     <>
-        <div className="container py-6 flex justify-between items-center">
+        <div className="container py-6 flex justify-evenly items-center">
             {/*Logo section*/}
             <div className=" flex items-center gap-3 ">
                 <span className="text-2xl font-bold relative inline-block transition-all duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary">
@@ -33,7 +34,21 @@ const Navbar = () => {
                 </span>
             </div>
             {/*Link Section*/}
-            <div></div>
+            <div className="hidden md:block !space-x-12">
+                {
+                    NavLinks.map((data) => {
+                        return (
+                            <a 
+                                className="inline-block mx-4 text-xl font-semibold"
+                                key={data.id} 
+                                href={data.link}
+                            >
+                                {data.title}
+                            </a>
+                        )
+                    })
+                }
+            </div>
         </div> 
     </>
   )
