@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Sofadi', 'sans-serif'],
+      },
       colors: {},
       container: {
         center: true,
