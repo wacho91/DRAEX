@@ -1,5 +1,4 @@
 
-
 const NavLinks = [
     {
         id: 1,
@@ -29,7 +28,10 @@ const Navbar = () => {
         <div className="container py-6 flex justify-evenly items-center">
             {/*Logo section*/}
             <div className=" flex items-center gap-3 ">
-                <span className="text-2xl font-bold relative inline-block transition-all duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary">
+                <span 
+                    className="text-2xl font-bold relative inline-block transition-all 
+                    duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary"
+                >
                     DRAEX
                 </span>
             </div>
@@ -39,7 +41,8 @@ const Navbar = () => {
                     NavLinks.map((data) => {
                         return (
                             <a 
-                                className="inline-block mx-4 text-xl font-semibold"
+                                className="inline-block mx-4 text-xl font-semibold transition-all 
+                                duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary"
                                 key={data.id} 
                                 href={data.link}
                             >
