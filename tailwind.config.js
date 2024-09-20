@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Sofadi', 'sans-serif'],
+        // 'sans': ['Sofadi', 'sans-serif'],
+        'sans': ["Montserrat", "sans-serif"],
       },
       colors: {},
       container: {
