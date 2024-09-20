@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className=" flex items-center gap-3 ">
                 <span 
                     className="text-2xl font-bold relative inline-block transition-all 
-                    duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary"
+                    duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
                 >
                     DRAEX
                 </span>
@@ -42,7 +42,8 @@ const Navbar = () => {
                         return (
                             <a 
                                 className="inline-block mx-4 text-xl font-semibold transition-all 
-                                duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary"
+                                duration-300 ease-in-out hover:scale-110 hover:-translate-y-1 hover:text-primary
+                              hover:bg-gray-300 hover:p-[2px] hover:duration-500 hover:rounded-sm"
                                 key={data.id} 
                                 href={data.link}
                             >
