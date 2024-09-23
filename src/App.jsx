@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero/Hero"
 import Navbar from "./Components/Navbar/Navbar"
+import Services from "./Components/Services/Services"
 import './index.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <main className="overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Services />
     </main>
   )
 }
