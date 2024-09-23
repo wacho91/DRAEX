@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[600px] gap-10">
                 {/*Information section*/}
-                <div className="flex flex-col justify-center gap-7 md:pr-[50px] xl:pr-52 text-center md:text-left pt-10 md:pt-0 px-10">
+                <div className="flex flex-col justify-center gap-5 text-center md:text-left pt-[-10px] md:pt-0 px-[-15px]">
                     <h1 className="text-4xl font-bold font-serif">
                         DRAEX-S.A.S
                     </h1>
