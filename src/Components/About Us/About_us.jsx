@@ -6,7 +6,7 @@ const About_us = () => {
             <h1 className="text-4xl font-semibold text-center py-12">
                 Sobre Nosotros
             </h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ml-[53px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
                 {/*Image Section*/}
                 <div className="flex flex-col justify-center">
                     Imagen de la pagina 🤙
