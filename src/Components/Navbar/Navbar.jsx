@@ -36,7 +36,7 @@ const Navbar = () => {
                 </span>
             </div>
             {/*Link Section*/}
-            <div className="hidden md:block !space-x-12">
+            <div className="hidden md:block !space-x-16">
                 {
                     NavLinks.map((data) => {
                         return (
