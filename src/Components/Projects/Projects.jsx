@@ -5,7 +5,7 @@ const Projects = () => {
         {/*Heading Title*/}
         <div className="space-y-2 text-center mx-w-[350px] mx-auto mb-8">
             <h1 className="text-4xl font-bold">
-                Nuestros Servicios
+                Nuestros Proyectos
             </h1>
         </div>
         {/*Card Section*/}
