@@ -2,7 +2,7 @@
 const About_us = () => {
   return (
     <>
-        <div className="container pb-12 pt-[-10px]">
+        <div className="container py-12">
             <h1 className="text-4xl font-semibold text-center py-12">
                 Sobre Nosotros
             </h1>
