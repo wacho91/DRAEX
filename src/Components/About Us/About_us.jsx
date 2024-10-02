@@ -15,9 +15,11 @@ const About_us = () => {
                 <div className="space-y-5 flex justify-center flex-col xl:max-w-[500px]">
                     <h2 className="text-4xl font-bold">Quienes Somos 🦾</h2>
                     <p className="text-gray-500 text-sm leading-7">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet vel velit pariatur ab quasi, aliquid accusamus 
-                        quod non porro adipisci!
+                        Somos una empresa profesional especializada en excavaciones, 
+                        obras hidráulicas y pilotajes con más de veinte (23) años de experiencia; 
+                        a través de nuestra actitud de servicio, nos caracterizamos por nuestra responsabilidad, 
+                        dedicación y cumplimiento. Contamos con los equipos necesarios para el mantenimiento de dragados de ríos, 
+                        canales y la debida construcción de los mismos.
                     </p>
                 </div>
             </div>
