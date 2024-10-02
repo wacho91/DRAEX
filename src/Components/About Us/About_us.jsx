@@ -13,7 +13,7 @@ const About_us = () => {
                 </div>
                 {/*Text Section*/}
                 <div className="space-y-5 flex justify-center flex-col xl:max-w-[500px]">
-                    <h2 className="text-4xl font-bold">Quienes Somos 🏗️</h2>
+                    <h2 className="text-4xl font-bold">Quienes Somos 🚧🏗️</h2>
                     <p className="text-gray-500 text-sm leading-7">
                         Somos una empresa profesional especializada en excavaciones, 
                         obras hidráulicas y pilotajes con más de veinte (23) años de experiencia; 
