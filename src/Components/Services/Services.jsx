@@ -1,4 +1,16 @@
-import { Service } from "../../Data/Data"
+// import { Service } from "../../Data/Data"
+
+const Service = [
+    {
+        id: 1,
+        title: "EXTRACCIÓN",
+        item: {
+            "1": "Arena y grava en ríos.",
+            "2": "Lirio",
+            "3": "oberturas acuáticas. "
+        }
+    }
+]
 
 
 const Services = () => {
@@ -23,33 +35,15 @@ const Services = () => {
                                 hover:text-gray-800 hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
                             >
                                 <h2 className=" text-center text-2xl font-bold font-serif">{data.title}</h2>
-                                <p>{data.item}</p>
+                                <ul>
+                                    {Object.entries(data.item).map(([key, value]) => (
+                                    <li key={key} className="text-sm">{value}</li>
+                                    ))}
+                                </ul>
                             </div>
                         )
                     })
                 }
-                
-
-                {/* <div 
-                    className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-slate-300 
-                    hover:text-gray-800 hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
-                >
-
-                </div>
-
-                <div 
-                    className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-slate-300 
-                    hover:text-gray-800 hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
-                >
-
-                </div> */}
-
-                {/* <div 
-                    className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-slate-300 
-                    hover:text-gray-800 hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
-                >
-
-                </div> */}
             </div>
         </div>
     </div>
