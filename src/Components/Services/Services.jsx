@@ -30,7 +30,7 @@ const Services = () => {
                     </p>
                 </div>
                 {/*Card Section*/}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                     {Service.map((data) => (
                         <div
                         key={data.id}
@@ -43,7 +43,7 @@ const Services = () => {
                             onMouseLeave={() => setHoveredCard(null)}
                         >
                             <div className="p-6">
-                                <h2 className="text-center text-2xl font-bold font-serif mb-4">{data.title}</h2>
+                                <h2 className="text-center text-xl font-semibold font-serif mb-4">{data.title}</h2>
                                 <ul className={`space-y-2 transition-opacity duration-300 ${hoveredCard === data.id ? 'opacity-100' : 'opacity-0'} text-center`}>
                                 {Object.entries(data.item).map(([key, value]) => (
                                     <li key={key} className="text-sm">{value}</li>
