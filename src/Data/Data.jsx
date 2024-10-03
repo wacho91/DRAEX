@@ -37,5 +37,39 @@ export const Service = [
             "3": "Canales",
             "4": "Contrucción de Jarillones"
         }
+    },
+
+    {
+        id: 5,
+        title: "MÁQUINAS PARA REALIZAR",
+        item: {
+            "1": "Pilotajes",
+            "2": "Dragados",
+            "3": "Excavaciones",
+            "4": "Perfilados de Hincamiento",
+            "5": "Suministro de tubería",
+            "6": "Transporta fluvial",
+            "7": "Remolcador fluvial",
+            "8": "Instalación de canasta de acero",
+            "9": "Instalación de tubería por Hincamiento con martillo de caída libre"
+        }
+    },
+
+    {
+        id: 6,
+        title: "CONSTRUCCIÓN DE MUELLES FLUVIALES Y MARÍTIMOS",
+        item: {}
+    },
+
+    {
+        id: 7,
+        title: "PILOTES HINCADOS Y PRE EXCAVADOS PARA PUENTES",
+        item: {}
+    },
+
+    {
+        id: 8,
+        title: "CIMENTACIONES PROFUNDAS PARA EDIFICIOS",
+        item: {}
     }
 ]
