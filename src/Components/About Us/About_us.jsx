@@ -16,8 +16,8 @@ const About_us = () => {
                     <h2 className="text-4xl font-bold">Quienes Somos 🚧🏗️</h2>
                     <p className="text-gray-500 text-sm leading-7">
                         Somos una empresa profesional especializada en excavaciones, 
-                        obras hidráulicas y pilotajes con más de veinte (23) años de experiencia; 
-                        a través de nuestra actitud de servicio, nos caracterizamos por nuestra responsabilidad, 
+                        obras hidráulicas y pilotajes con más de veintitrés (23) años de experiencia; 
+                        a través de nuestra aptitud de servicio, nos caracterizamos por nuestra responsabilidad, 
                         dedicación y cumplimiento. Contamos con los equipos necesarios para el mantenimiento de dragados de ríos, 
                         canales y la debida construcción de los mismos.
                     </p>
