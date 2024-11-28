@@ -26,7 +26,7 @@ const NavLinks = [
 const Navbar = () => {
   return (
     <>
-        <div className="container py-6 flex justify-evenly items-center">
+        <div className="container flex justify-between items-center">
             {/*Logo section*/}
             <div className=" flex items-center gap-3 ">
                 {/* <span 
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <img 
                         src={Logo} 
                         alt="" 
-                        className="w-32 h-32 object-contain relative inline-block transition-all 
+                        className="w-36 h-32 object-contain relative inline-block transition-all 
                         duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
                     />
                 {/* </span> */}
